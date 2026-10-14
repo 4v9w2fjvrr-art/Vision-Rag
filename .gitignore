@@ -13,6 +13,15 @@ __pycache__/
 # Operating-system files
 .DS_Store
 
+# Local editor settings, test files, and model weights
+/.idea/
+/.zed/
+/test/
+/testing_pythn.py
+/testing_python.py
+/yolo11n.pt
+/yolo11s.pt
+
 # Photos and videos in the local dataset; keep its folder structure in Git
 /data/**/*.[jJ][pP][gG]
 /data/**/*.[jJ][pP][eE][gG]
