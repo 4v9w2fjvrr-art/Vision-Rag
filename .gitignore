@@ -1,0 +1,21 @@
+# Local environment and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor and operating-system files
+.DS_Store
+.idea/
+.zed/
+
+# Local datasets, generated outputs, and downloaded model weights
+/data/
+/outputs/
+*.pt
