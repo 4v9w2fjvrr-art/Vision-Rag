@@ -1,0 +1,434 @@
+{
+    "image": "data/images/alexander-lunyov-nlY-pr6Fr1w-unsplash.jpg",
+    "objects": [
+        {
+            "object_id": 1,
+            "label": "bicycle",
+            "confidence": 0.932,
+            "bounding_box": {
+                "x1": 1209,
+                "y1": 2682,
+                "x2": 2877,
+                "y2": 3994
+            },
+            "center": {
+                "x": 2043,
+                "y": 3338
+            }
+        },
+        {
+            "object_id": 2,
+            "label": "person",
+            "confidence": 0.891,
+            "bounding_box": {
+                "x1": 1657,
+                "y1": 2087,
+                "x2": 2552,
+                "y2": 3559
+            },
+            "center": {
+                "x": 2104,
+                "y": 2823
+            }
+        },
+        {
+            "object_id": 3,
+            "label": "car",
+            "confidence": 0.887,
+            "bounding_box": {
+                "x1": 662,
+                "y1": 2073,
+                "x2": 903,
+                "y2": 2288
+            },
+            "center": {
+                "x": 783,
+                "y": 2181
+            }
+        },
+        {
+            "object_id": 4,
+            "label": "person",
+            "confidence": 0.726,
+            "bounding_box": {
+                "x1": 1125,
+                "y1": 2039,
+                "x2": 1175,
+                "y2": 2182
+            },
+            "center": {
+                "x": 1150,
+                "y": 2110
+            }
+        },
+        {
+            "object_id": 5,
+            "label": "person",
+            "confidence": 0.594,
+            "bounding_box": {
+                "x1": 1197,
+                "y1": 2050,
+                "x2": 1243,
+                "y2": 2179
+            },
+            "center": {
+                "x": 1220,
+                "y": 2114
+            }
+        },
+        {
+            "object_id": 6,
+            "label": "stop sign",
+            "confidence": 0.407,
+            "bounding_box": {
+                "x1": 2079,
+                "y1": 1431,
+                "x2": 2284,
+                "y2": 1641
+            },
+            "center": {
+                "x": 2181,
+                "y": 1536
+            }
+        },
+        {
+            "object_id": 7,
+            "label": "backpack",
+            "confidence": 0.247,
+            "bounding_box": {
+                "x1": 2386,
+                "y1": 3106,
+                "x2": 2947,
+                "y2": 3437
+            },
+            "center": {
+                "x": 2666,
+                "y": 3272
+            }
+        },
+        {
+            "object_id": 8,
+            "label": "car",
+            "confidence": 0.239,
+            "bounding_box": {
+                "x1": 731,
+                "y1": 2023,
+                "x2": 841,
+                "y2": 2071
+            },
+            "center": {
+                "x": 786,
+                "y": 2047
+            }
+        },
+        {
+            "object_id": 9,
+            "label": "car",
+            "confidence": 0.233,
+            "bounding_box": {
+                "x1": 728,
+                "y1": 2034,
+                "x2": 830,
+                "y2": 2074
+            },
+            "center": {
+                "x": 779,
+                "y": 2054
+            }
+        },
+        {
+            "object_id": 10,
+            "label": "car",
+            "confidence": 0.215,
+            "bounding_box": {
+                "x1": 769,
+                "y1": 2026,
+                "x2": 845,
+                "y2": 2069
+            },
+            "center": {
+                "x": 807,
+                "y": 2047
+            }
+        }
+    ],
+    "texts": [
+        {
+            "text_id": 1,
+            "text": "30",
+            "confidence": 1.0,
+            "bounding_box": {
+                "x1": 2122,
+                "y1": 1487,
+                "x2": 2239,
+                "y2": 1581
+            },
+            "center": {
+                "x": 2180,
+                "y": 1534
+            }
+        },
+        {
+            "text_id": 2,
+            "text": "3",
+            "confidence": 0.684,
+            "bounding_box": {
+                "x1": 1783,
+                "y1": 3354,
+                "x2": 1810,
+                "y2": 3381
+            },
+            "center": {
+                "x": 1796,
+                "y": 3368
+            }
+        },
+        {
+            "text_id": 3,
+            "text": "2",
+            "confidence": 0.964,
+            "bounding_box": {
+                "x1": 1802,
+                "y1": 3370,
+                "x2": 1826,
+                "y2": 3393
+            },
+            "center": {
+                "x": 1814,
+                "y": 3382
+            }
+        }
+    ],
+    "object_relationships": [
+        {
+            "type": "near",
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 2,
+                "label": "person"
+            },
+            "distance_pixels": 519
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 4,
+                "label": "person"
+            },
+            "distance_pixels": 374
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 5,
+                "label": "person"
+            },
+            "distance_pixels": 442
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "distance_pixels": 134
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "distance_pixels": 127
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "distance_pixels": 136
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 5,
+                "label": "person"
+            },
+            "distance_pixels": 70
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "distance_pixels": 369
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "distance_pixels": 375
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "distance_pixels": 349
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "distance_pixels": 439
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "distance_pixels": 445
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "distance_pixels": 418
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 8,
+                "label": "car"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "distance_pixels": 10
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 8,
+                "label": "car"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "distance_pixels": 21
+        },
+        {
+            "type": "near",
+            "source": {
+                "id": 9,
+                "label": "car"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "distance_pixels": 29
+        }
+    ],
+    "object_text_relationships": [
+        {
+            "type": "text_near_object",
+            "object": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "text": {
+                "id": 2,
+                "value": "3"
+            },
+            "distance_pixels": 249
+        },
+        {
+            "type": "text_near_object",
+            "object": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "text": {
+                "id": 3,
+                "value": "2"
+            },
+            "distance_pixels": 233
+        },
+        {
+            "type": "text_near_object",
+            "object": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "text": {
+                "id": 1,
+                "value": "30"
+            },
+            "distance_pixels": 2
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+{
+    "image": "data/images/alexander-lunyov-nlY-pr6Fr1w-unsplash.jpg",
+    "objects": [
+        {
+            "label": "bicycle",
+            "confidence": 0.932,
+            "sources": [
+                "yolo",
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 1209,
+                "y1": 2682,
+                "x2": 2877,
+                "y2": 3994
+            },
+            "object_id": 1
+        },
+        {
+            "label": "person",
+            "confidence": 0.891,
+            "sources": [
+                "yolo",
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 1657,
+                "y1": 2087,
+                "x2": 2552,
+                "y2": 3559
+            },
+            "object_id": 2
+        },
+        {
+            "label": "car",
+            "confidence": 0.887,
+            "sources": [
+                "yolo",
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 662,
+                "y1": 2073,
+                "x2": 903,
+                "y2": 2288
+            },
+            "object_id": 3
+        },
+        {
+            "label": "person",
+            "confidence": 0.726,
+            "sources": [
+                "yolo",
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 1125,
+                "y1": 2039,
+                "x2": 1175,
+                "y2": 2182
+            },
+            "object_id": 4
+        },
+        {
+            "label": "person",
+            "confidence": 0.594,
+            "sources": [
+                "yolo",
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 1197,
+                "y1": 2050,
+                "x2": 1243,
+                "y2": 2179
+            },
+            "object_id": 5
+        },
+        {
+            "label": "stop sign",
+            "confidence": 0.407,
+            "sources": [
+                "yolo"
+            ],
+            "bounding_box": {
+                "x1": 2079,
+                "y1": 1431,
+                "x2": 2284,
+                "y2": 1641
+            },
+            "object_id": 6
+        },
+        {
+            "label": "tree",
+            "confidence": 0.381,
+            "sources": [
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 971,
+                "y1": 19,
+                "x2": 1936,
+                "y2": 2190
+            },
+            "object_id": 7
+        },
+        {
+            "label": "car",
+            "confidence": 0.365,
+            "sources": [
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 717,
+                "y1": 2027,
+                "x2": 852,
+                "y2": 2096
+            },
+            "object_id": 8
+        },
+        {
+            "label": "barricade road barrier",
+            "confidence": 0.333,
+            "sources": [
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 4,
+                "y1": 2372,
+                "x2": 401,
+                "y2": 2688
+            },
+            "object_id": 9
+        },
+        {
+            "label": "house",
+            "confidence": 0.31,
+            "sources": [
+                "grounding_dino"
+            ],
+            "bounding_box": {
+                "x1": 2224,
+                "y1": 1356,
+                "x2": 2498,
+                "y2": 1669
+            },
+            "object_id": 10
+        },
+        {
+            "label": "backpack",
+            "confidence": 0.247,
+            "sources": [
+                "yolo"
+            ],
+            "bounding_box": {
+                "x1": 2386,
+                "y1": 3106,
+                "x2": 2947,
+                "y2": 3437
+            },
+            "object_id": 11
+        },
+        {
+            "label": "car",
+            "confidence": 0.239,
+            "sources": [
+                "yolo"
+            ],
+            "bounding_box": {
+                "x1": 731,
+                "y1": 2023,
+                "x2": 841,
+                "y2": 2071
+            },
+            "object_id": 12
+        }
+    ],
+    "texts": [
+        {
+            "text": "30",
+            "confidence": 1.0,
+            "bounding_box": {
+                "x1": 2122,
+                "y1": 1487,
+                "x2": 2239,
+                "y2": 1581
+            },
+            "text_id": 1
+        },
+        {
+            "text": "3",
+            "confidence": 0.684,
+            "bounding_box": {
+                "x1": 1783,
+                "y1": 3354,
+                "x2": 1810,
+                "y2": 3381
+            },
+            "text_id": 2
+        },
+        {
+            "text": "2",
+            "confidence": 0.964,
+            "bounding_box": {
+                "x1": 1802,
+                "y1": 3370,
+                "x2": 1826,
+                "y2": 3393
+            },
+            "text_id": 3
+        }
+    ]
+}

@@ -10,12 +10,31 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# Local editor and operating-system files
+# Operating-system files
 .DS_Store
-.idea/
-.zed/
 
-# Local datasets, generated outputs, and downloaded model weights
-/data/
-/outputs/
-*.pt
+# Photos and videos in the local dataset; keep its folder structure in Git
+/data/**/*.[jJ][pP][gG]
+/data/**/*.[jJ][pP][eE][gG]
+/data/**/*.[pP][nN][gG]
+/data/**/*.[gG][iI][fF]
+/data/**/*.[wW][eE][bB][pP]
+/data/**/*.[bB][mM][pP]
+/data/**/*.[tT][iI][fF]
+/data/**/*.[tT][iI][fF][fF]
+/data/**/*.[hH][eE][iI][cC]
+/data/**/*.[hH][eE][iI][fF]
+/data/**/*.[aA][vV][iI][fF]
+/data/**/*.[mM][pP]4
+/data/**/*.[mM][oO][vV]
+/data/**/*.[mM]4[vV]
+/data/**/*.[aA][vV][iI]
+/data/**/*.[mM][kK][vV]
+/data/**/*.[wW][eE][bB][mM]
+/data/**/*.[mM][pP][gG]
+/data/**/*.[mM][pP][eE][gG]
+/data/**/*.[wW][mM][vV]
+/data/**/*.[fF][lL][vV]
+/data/**/*.3[gG][pP]
+/data/**/*.[mM][tT][sS]
+/data/**/*.[mM]2[tT][sS]

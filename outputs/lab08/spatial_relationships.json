@@ -1,0 +1,971 @@
+{
+    "image": "data/images/alexander-lunyov-nlY-pr6Fr1w-unsplash.jpg",
+    "objects": [
+        {
+            "object_id": 1,
+            "label": "bicycle",
+            "confidence": 0.932,
+            "bounding_box": {
+                "x1": 1209,
+                "y1": 2682,
+                "x2": 2877,
+                "y2": 3994
+            }
+        },
+        {
+            "object_id": 2,
+            "label": "person",
+            "confidence": 0.891,
+            "bounding_box": {
+                "x1": 1657,
+                "y1": 2087,
+                "x2": 2552,
+                "y2": 3559
+            }
+        },
+        {
+            "object_id": 3,
+            "label": "car",
+            "confidence": 0.887,
+            "bounding_box": {
+                "x1": 662,
+                "y1": 2073,
+                "x2": 903,
+                "y2": 2288
+            }
+        },
+        {
+            "object_id": 4,
+            "label": "person",
+            "confidence": 0.726,
+            "bounding_box": {
+                "x1": 1125,
+                "y1": 2039,
+                "x2": 1175,
+                "y2": 2182
+            }
+        },
+        {
+            "object_id": 5,
+            "label": "person",
+            "confidence": 0.594,
+            "bounding_box": {
+                "x1": 1197,
+                "y1": 2050,
+                "x2": 1243,
+                "y2": 2179
+            }
+        },
+        {
+            "object_id": 6,
+            "label": "stop sign",
+            "confidence": 0.407,
+            "bounding_box": {
+                "x1": 2079,
+                "y1": 1431,
+                "x2": 2284,
+                "y2": 1641
+            }
+        },
+        {
+            "object_id": 7,
+            "label": "backpack",
+            "confidence": 0.247,
+            "bounding_box": {
+                "x1": 2386,
+                "y1": 3106,
+                "x2": 2947,
+                "y2": 3437
+            }
+        },
+        {
+            "object_id": 8,
+            "label": "car",
+            "confidence": 0.239,
+            "bounding_box": {
+                "x1": 731,
+                "y1": 2023,
+                "x2": 841,
+                "y2": 2071
+            }
+        },
+        {
+            "object_id": 9,
+            "label": "car",
+            "confidence": 0.233,
+            "bounding_box": {
+                "x1": 728,
+                "y1": 2034,
+                "x2": 830,
+                "y2": 2074
+            }
+        },
+        {
+            "object_id": 10,
+            "label": "car",
+            "confidence": 0.215,
+            "bounding_box": {
+                "x1": 769,
+                "y1": 2026,
+                "x2": 845,
+                "y2": 2069
+            }
+        }
+    ],
+    "texts": [
+        {
+            "text_id": 1,
+            "text": "30",
+            "confidence": 1.0,
+            "bounding_box": {
+                "x1": 2122,
+                "y1": 1487,
+                "x2": 2239,
+                "y2": 1581
+            }
+        },
+        {
+            "text_id": 2,
+            "text": "3",
+            "confidence": 0.684,
+            "bounding_box": {
+                "x1": 1783,
+                "y1": 3354,
+                "x2": 1810,
+                "y2": 3381
+            }
+        },
+        {
+            "text_id": 3,
+            "text": "2",
+            "confidence": 0.964,
+            "bounding_box": {
+                "x1": 1802,
+                "y1": 3370,
+                "x2": 1826,
+                "y2": 3393
+            }
+        }
+    ],
+    "object_relationships": [
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 2,
+                "label": "person"
+            },
+            "relationships": [
+                "overlaps",
+                "left_of",
+                "below"
+            ],
+            "distance": 519,
+            "iou": 0.288
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 3,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1711,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 4,
+                "label": "person"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1518,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 5,
+                "label": "person"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1475,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "relationships": [
+                "left_of",
+                "below"
+            ],
+            "distance": 1807,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "relationships": [
+                "overlaps",
+                "left_of",
+                "below"
+            ],
+            "distance": 627,
+            "iou": 0.073
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1802,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1802,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1787,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 3,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1470,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 4,
+                "label": "person"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1191,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 5,
+                "label": "person"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1133,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "relationships": [
+                "left_of",
+                "below"
+            ],
+            "distance": 1289,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "relationships": [
+                "overlaps",
+                "left_of",
+                "above"
+            ],
+            "distance": 719,
+            "iou": 0.038
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1530,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1532,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 2,
+                "label": "person"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 1512,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 4,
+                "label": "person"
+            },
+            "relationships": [
+                "near",
+                "left_of",
+                "below"
+            ],
+            "distance": 374,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 5,
+                "label": "person"
+            },
+            "relationships": [
+                "near",
+                "left_of",
+                "below"
+            ],
+            "distance": 442,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "relationships": [
+                "left_of",
+                "below"
+            ],
+            "distance": 1540,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "relationships": [
+                "left_of",
+                "above"
+            ],
+            "distance": 2177,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "left_of",
+                "below"
+            ],
+            "distance": 134,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "overlaps",
+                "right_of",
+                "below"
+            ],
+            "distance": 127,
+            "iou": 0.002
+        },
+        {
+            "source": {
+                "id": 3,
+                "label": "car"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "left_of",
+                "below"
+            ],
+            "distance": 135,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 5,
+                "label": "person"
+            },
+            "relationships": [
+                "near",
+                "left_of",
+                "above"
+            ],
+            "distance": 70,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "relationships": [
+                "left_of",
+                "below"
+            ],
+            "distance": 1181,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "relationships": [
+                "left_of",
+                "above"
+            ],
+            "distance": 1910,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "right_of",
+                "below"
+            ],
+            "distance": 369,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "right_of",
+                "below"
+            ],
+            "distance": 375,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 4,
+                "label": "person"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "right_of",
+                "below"
+            ],
+            "distance": 349,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "relationships": [
+                "left_of",
+                "below"
+            ],
+            "distance": 1122,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "relationships": [
+                "left_of",
+                "above"
+            ],
+            "distance": 1852,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "right_of",
+                "below"
+            ],
+            "distance": 439,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "right_of",
+                "below"
+            ],
+            "distance": 445,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 5,
+                "label": "person"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "right_of",
+                "below"
+            ],
+            "distance": 418,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "target": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "relationships": [
+                "left_of",
+                "above"
+            ],
+            "distance": 1802,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "above"
+            ],
+            "distance": 1486,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "above"
+            ],
+            "distance": 1495,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "above"
+            ],
+            "distance": 1467,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "target": {
+                "id": 8,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 2244,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 2246,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 7,
+                "label": "backpack"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "right_of",
+                "below"
+            ],
+            "distance": 2226,
+            "iou": 0.0
+        },
+        {
+            "source": {
+                "id": 8,
+                "label": "car"
+            },
+            "target": {
+                "id": 9,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "overlaps",
+                "right_of",
+                "above"
+            ],
+            "distance": 10,
+            "iou": 0.643
+        },
+        {
+            "source": {
+                "id": 8,
+                "label": "car"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "overlaps",
+                "left_of",
+                "above"
+            ],
+            "distance": 21,
+            "iou": 0.568
+        },
+        {
+            "source": {
+                "id": 9,
+                "label": "car"
+            },
+            "target": {
+                "id": 10,
+                "label": "car"
+            },
+            "relationships": [
+                "near",
+                "overlaps",
+                "left_of",
+                "below"
+            ],
+            "distance": 29,
+            "iou": 0.41
+        }
+    ],
+    "object_text_relationships": [
+        {
+            "object": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "text": {
+                "id": 2,
+                "value": "3"
+            },
+            "relationships": [
+                "near",
+                "overlaps",
+                "right_of",
+                "above",
+                "contains"
+            ],
+            "distance": 248,
+            "iou": 0.0
+        },
+        {
+            "object": {
+                "id": 1,
+                "label": "bicycle"
+            },
+            "text": {
+                "id": 3,
+                "value": "2"
+            },
+            "relationships": [
+                "near",
+                "overlaps",
+                "right_of",
+                "above",
+                "contains"
+            ],
+            "distance": 233,
+            "iou": 0.0
+        },
+        {
+            "object": {
+                "id": 2,
+                "label": "person"
+            },
+            "text": {
+                "id": 2,
+                "value": "3"
+            },
+            "relationships": [
+                "overlaps",
+                "right_of",
+                "above",
+                "contains"
+            ],
+            "distance": 626,
+            "iou": 0.001
+        },
+        {
+            "object": {
+                "id": 6,
+                "label": "stop sign"
+            },
+            "text": {
+                "id": 1,
+                "value": "30"
+            },
+            "relationships": [
+                "near",
+                "overlaps",
+                "right_of",
+                "below",
+                "contains"
+            ],
+            "distance": 2,
+            "iou": 0.255
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "image": "data/images/alexander-lunyov-nlY-pr6Fr1w-unsplash.jpg",
+    "image_size": {
+        "width": 3199,
+        "height": 3999
+    },
+    "total_text_regions": 6,
+    "texts": [
+        {
+            "text_id": 1,
+            "text": "à",
+            "confidence": 0.555,
+            "bounding_box": {
+                "x1": 2298,
+                "y1": 1277,
+                "x2": 2325,
+                "y2": 1300
+            }
+        },
+        {
+            "text_id": 2,
+            "text": "30",
+            "confidence": 1.0,
+            "bounding_box": {
+                "x1": 2122,
+                "y1": 1487,
+                "x2": 2239,
+                "y2": 1581
+            }
+        },
+        {
+            "text_id": 3,
+            "text": "RUE",
+            "confidence": 0.167,
+            "bounding_box": {
+                "x1": 1708,
+                "y1": 3296,
+                "x2": 1783,
+                "y2": 3358
+            }
+        },
+        {
+            "text_id": 4,
+            "text": "3",
+            "confidence": 0.684,
+            "bounding_box": {
+                "x1": 1783,
+                "y1": 3354,
+                "x2": 1810,
+                "y2": 3381
+            }
+        },
+        {
+            "text_id": 5,
+            "text": "2",
+            "confidence": 0.964,
+            "bounding_box": {
+                "x1": 1802,
+                "y1": 3370,
+                "x2": 1826,
+                "y2": 3393
+            }
+        },
+        {
+            "text_id": 6,
+            "text": "MRO",
+            "confidence": 0.188,
+            "bounding_box": {
+                "x1": 1818,
+                "y1": 3381,
+                "x2": 1880,
+                "y2": 3436
+            }
+        }
+    ]
+}
